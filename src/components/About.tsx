@@ -405,7 +405,7 @@ export default function About({
 				<div className="container" style={{
 					marginTop: 0,
 					paddingTop: 0,
-					paddingBottom: '0.7rem', // reduced from 1.5rem
+					paddingBottom: '0.7rem',
 					background: 'none'
 				}}>
 					<h2 style={{

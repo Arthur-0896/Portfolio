@@ -20,7 +20,7 @@ export default function Hero({ name, title, role }: { name?: string; title?: str
 			>
 				{/* larger, responsive profile image (place at public/static/images/profile.jpg) */}
 				<img
-					src="/static/images/profile.jpg"
+					src="static/images/profile.jpg"
 					alt={`${name} profile`}
 					style={{
 						/* responsive square: grows up to 340px, shrinks on small screens */

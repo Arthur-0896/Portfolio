@@ -4,7 +4,7 @@ type Project = { title: string; description: string; link?: string; github?: str
 
 export default function Projects({ projects = [] }: { projects?: Project[] }) {
 	// track preview state + modal (now generic)
-	const previewImageSrc = 'static/gifs/graphQL.gif'; // <-- remove leading slash
+	const previewImageSrc = '/static/gifs/graphQL.gif'; // <-- remove leading slash
 	const youTubeId = '4KpTkeEvLW4'; // from your link
 	const youTubeThumbnail = `https://img.youtube.com/vi/${youTubeId}/hqdefault.jpg`;
 	const youTubeEmbed = `https://www.youtube.com/embed/${youTubeId}?autoplay=1&rel=0`;

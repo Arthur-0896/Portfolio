@@ -22,7 +22,7 @@ export default function Hero({ name, title, role }: { name?: string; title?: str
 			>
 				{/* larger, responsive profile image (place at public/static/images/profile.jpg) */}
 				<img
-					src="static/images/profile.jpg"
+					src="/static/images/profile.jpg"
 					alt={`${name} profile`}
 					style={{
 						/* responsive square: grows up to 340px, shrinks on small screens */
@@ -73,7 +73,7 @@ export default function Hero({ name, title, role }: { name?: string; title?: str
 							paddingBottom: 18 // extra space below logos
 						}}>
 							<img
-								src="static/clients/amazon.png"
+								src="/static/clients/amazon.png"
 								alt="Amazon"
 								title="Amazon"
 								style={{
@@ -88,7 +88,7 @@ export default function Hero({ name, title, role }: { name?: string; title?: str
 								}}
 							/>
 							<img
-								src="static/clients/trafigura.jpg"
+								src="/static/clients/trafigura.jpg"
 								alt="Trafigura"
 								title="Trafigura"
 								style={{
@@ -103,7 +103,7 @@ export default function Hero({ name, title, role }: { name?: string; title?: str
 								}}
 							/>
 							<img
-								src="static/clients/standardchartered.webp"
+								src="/static/clients/standardchartered.webp"
 								alt="Standard Chartered"
 								title="Standard Chartered"
 								style={{
@@ -118,7 +118,7 @@ export default function Hero({ name, title, role }: { name?: string; title?: str
 								}}
 							/>
 							<img
-								src="static/clients/kotak.webp"
+								src="/static/clients/kotak.webp"
 								alt="Kotak Mahindra"
 								title="Kotak Mahindra"
 								style={{
